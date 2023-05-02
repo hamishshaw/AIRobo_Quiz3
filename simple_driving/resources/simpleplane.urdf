@@ -9,14 +9,14 @@
     <link name="base_link">
         <visual> 
             <geometry> 
-                <box size="80 80 0.01"/>
+                <box size="20 20 0.01"/>
                 <origin rpy="0 0 0" xyz="-10 -10 -0.005"/>
             </geometry>
             <material name="grey"/>
         </visual>
         <collision> 
              <geometry> 
-                <box size="80 80 0.01"/>
+                <box size="20 20 0.01"/>
                 <origin rpy="0 0 0" xyz="-10 -10 -0.005"/>
             </geometry>
         </collision> 
@@ -28,7 +28,7 @@
             <lateral_friction value="4"/>
         </contact>
     </link> 
-    
+
     <link name="rear_wall">
     <visual>
         <geometry> 
