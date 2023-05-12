@@ -11,7 +11,9 @@ simple_driving/envs/simple_driving_env.py
 simple_driving/resources/__init__.py
 simple_driving/resources/car.py
 simple_driving/resources/goal.py
+simple_driving/resources/obstacle.py
 simple_driving/resources/plane.py
 simple_driving/resources/simplecar.urdf
 simple_driving/resources/simplegoal.urdf
+simple_driving/resources/simpleobstacle.urdf
 simple_driving/resources/simpleplane.urdf
